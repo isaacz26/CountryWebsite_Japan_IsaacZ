@@ -1,0 +1,21 @@
+.banner{
+    text-align: center;
+    font-size: 50px;
+    color: lightpink;
+    font-family:"Courier New";
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+nav a{
+    flex: 1;
+    color: lightpink;
+    font-size: 50px;
+    font-family: "Courier New";
+    text-decoration: none;
+}
+
