@@ -1,9 +1,10 @@
 .banner{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: lightpink;
     font-family:"Courier New";
     align-items: center;
+    background-color: black;
 }
 
 .container{
@@ -14,8 +15,14 @@
 nav a{
     flex: 1;
     color: lightpink;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Courier New";
     text-decoration: none;
+    background-color: black;
 }
 
+nav a:hover{
+    background-color: white;
+    color: lightpink;
+    transition: 1s;
+}
